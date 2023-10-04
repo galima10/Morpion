@@ -1,0 +1,173 @@
+.ens-grille{
+    position: relative;
+    width: 510px;
+    height: 510px;
+}
+.desc{
+    position: absolute;
+    top: 5em;
+    left: 1em;
+}
+.gagner{
+    position: relative;
+    top: 5em;
+    font-size: 2em;
+    font-weight: bold;
+}
+.tour{
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.grille{
+    background-color: transparent;
+    width: 510px;
+    height: 510px;
+    display: flex;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.colonne{
+    background-color: transparent;
+    height: 510px;
+    width: 170px;
+}
+.cas{
+    height: 150px;
+    width: 150px;
+    border: 10px solid white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.case{
+    cursor: pointer;
+}
+.case:hover{
+    background-color: rgba(104, 147, 221, 0.3);
+    transition: .5s;
+}
+.case:not(:hover){
+    background-color: transparent;
+    transition: .5s;
+}
+.grille1{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.barre1{
+    width: 20px;
+    height: 490px;
+    background-color: black;
+    position: absolute;
+    top: 10px;
+    left: 160px;
+}
+.barre2{
+    width: 20px;
+    height: 490px;
+    background-color: black;
+    position: absolute;
+    top: 10px;
+    left: 330px;
+}
+.barre3{
+    width: 490px;
+    height: 20px;
+    background-color: black;
+    position: absolute;
+    top: 160px;
+    left: 10px;
+}
+.barre4{
+    width: 490px;
+    height: 20px;
+    background-color: black;
+    position: absolute;
+    top: 330px;
+    left: 10px;
+}
+
+.ens-grille{
+    position: relative;
+    margin: auto;
+    width: 510px;
+}
+
+.rond{
+    border: 10px solid;
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+    position: absolute;
+}
+.croix{
+    width: 90px;
+    height: 90px;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.c-barre-1{
+    background-color: black;
+    border-radius: 100px;
+    width: 10px;
+    height: 120px;
+    position: absolute;
+    transform: rotate(45deg);
+}
+.c-barre-2{
+    background-color: black;
+    border-radius: 100px;
+    width: 10px;
+    height: 120px;
+    position: absolute;
+    transform: rotate(-45deg);
+}
+
+.btn{
+    background-color: rgb(49, 71, 134);
+    color: white;
+    font-size: 1.2em;
+    height: 4em;
+    width: 8em;
+    cursor: pointer;
+    position: absolute;
+    left: 10px;
+    bottom: 50px;
+    margin-top: 1em;
+    border-radius: 1.5em;
+    border: white;
+}
+
+
+@media (max-width: 767px) {
+    .pendu{
+        transform: scale(.5);
+    }
+    .ens-grille{
+        position: relative;
+        left: -70px;
+    }
+    body{
+        width: 300px;
+    }
+    .desc{
+        position: relative;
+        top: 5em;
+        left: 1em;
+    }
+    .btn{
+        left: calc(50% - 3em);
+        top: -50%;
+        margin-top: 5em;
+        border-radius: 1.2em;
+    }
+}
+
+@media (max-width: 767px) and (orientation: landscape) {
+    
+}
