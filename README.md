@@ -1,0 +1,1 @@
+Un jeu simple qui se joue à 2 en local sur le même navigateur. Le but est simple : un à un vous allez devoir mettre sur la grille le symbole vous correspondant pour réaliser une rangée de 3 symboles pour gagner
